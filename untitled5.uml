@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/untitled5</OriginalElement>
+  <nodes>
+    <node x="338.8975084937713" y="303.0571913929785">work5.Subscriber</node>
+    <node x="-173.39694224235558" y="279.0571913929785">work5.News</node>
+    <node x="112.61834654586636" y="557.186296715742">work5.Main</node>
+    <node x="-173.39694224235558" y="73.23159682899205">work5.Subject</node>
+    <node x="146.30520951302378" y="303.0571913929785">work5.MediaAgency</node>
+    <node x="226.92468856172138" y="97.23159682899207">work5.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work5.News" target="work5.Subject" relationship="REALIZATION">
+      <point x="-54.25" y="-67.5" />
+      <point x="-119.14694224235558" y="378.0" />
+      <point x="-64.89694224235558" y="378.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="work5.Main" target="work5.MediaAgency" relationship="CREATE">
+      <point x="0.0" y="-31.5" />
+      <point x="194.61834654586636" y="618.0" />
+      <point x="230.80520951302378" y="618.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="work5.News" target="work5.Observer" relationship="TO_MANY">
+      <point x="59.72819932049828" y="-69.02378255945638" />
+      <point x="-5.1687429218573016" y="231.64439411098527" />
+      <point x="136.38505096262742" y="231.64439411098527" />
+      <point x="136.38505096262742" y="119.97055492638731" />
+      <point x="-84.0407701019252" y="-8.761041902604745" />
+    </edge>
+    <edge source="work5.MediaAgency" target="work5.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="230.80520951302378" y="226.29445073612686" />
+      <point x="320.91053227633074" y="226.29445073612686" />
+      <point x="9.48584371460936" y="24.099660249150645" />
+    </edge>
+    <edge source="work5.Subscriber" target="work5.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="423.3975084937713" y="226.29445073612686" />
+      <point x="319.2253680634202" y="226.29445073612686" />
+      <point x="7.8006795016988235" y="15.673839184597966" />
+    </edge>
+    <edge source="work5.Main" target="work5.News" relationship="CREATE">
+      <point x="0.0" y="-31.5" />
+      <point x="194.61834654586636" y="596.0" />
+      <point x="-64.89694224235558" y="596.0" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="work5.Main" target="work5.Subscriber" relationship="CREATE">
+      <point x="0.0" y="-31.5" />
+      <point x="194.61834654586636" y="618.0" />
+      <point x="423.3975084937713" y="618.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.1868279569892473" showDependencies="true" x="200.0" y="358.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
